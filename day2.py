@@ -4,11 +4,11 @@ rounds = file1.split("\n")
 def evalscore(opponent,you):
     """
     #opponent
-    rock = A
+    rock A
     paper B
     sciccors C
     #you
-    rock = X - 1
+    rock X - 1
     paper Y - 2
     sciccors Z - 3
     """
