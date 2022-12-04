@@ -1,5 +1,4 @@
 
-
 input=open('inputs/day4.txt', 'r').read().splitlines()
 
 amt=0

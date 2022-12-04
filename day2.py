@@ -13,25 +13,25 @@ def evalscore(opponent,you):
     sciccors Z - 3
     """
     if(opponent == 'A' and you == 'X'):
-        return 3+1
+        return 4
     elif(opponent == 'A' and you == 'Y'):
-        return 6+2
+        return 8
     elif(opponent == 'A' and you=='Z'):
-        return 0+3
+        return 3
 
     elif(opponent == 'B' and you == 'X'):
-        return 0+1
+        return 1
     elif(opponent == 'B' and you == 'Y'):
-        return 3+2
+        return 5
     elif(opponent == 'B' and you == 'Z'):
-        return 6+3
+        return 9
 
     elif(opponent == 'C') and you=='X':
-        return 6+1
+        return 7
     elif(opponent == 'C') and you=='Y':
-        return 0+2
+        return 2
     elif(opponent == 'C') and you=='Z':
-        return 3+3
+        return 6
 
 def findWinnerhand(opponent):
     if(opponent == 'A'):

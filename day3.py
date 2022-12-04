@@ -13,7 +13,7 @@ def find_duplicate(comp1,comp2,comp3=None):
         for char in comp1:
             if(char in comp2 and char in comp3):
                 return char
-
+                
 sum=0
 for line in input:
     first=line[0:(int(len(line)/2))]
