@@ -1,9 +1,4 @@
 
-
-
-
-
-
 input=open('inputs/day5.txt', 'r').read().split("\n\n")
 
 instructions = input[1].split('\n')
